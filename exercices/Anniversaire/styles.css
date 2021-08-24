@@ -1,0 +1,48 @@
+h1{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 50px;
+    width: 410px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+p#one{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 30px;
+    width: 360px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+p#two{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 30px;
+    width: 360px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+p#three{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 30px;
+    width: 360px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+p#four{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 30px;
+    width: 360px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+p#five{
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 30px;
+    width: 360px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}

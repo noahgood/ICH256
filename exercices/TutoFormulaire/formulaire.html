@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Cidisi - Games</title>
+        <!-- CSS de bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- JQuery -->
+        <script src="./../../jquery/jquery-3.6.0.js"></script>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <!-- JQuery validate -->
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <h3>Inscription</h3>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Inscription au portail de jeux
+                </div>
+
+
+                <div class="panel-body">
+                    <form id="inscription_form" action="check.php" method="post">
+                        <!--Nom-->
+                        <div class="form-group row">
+                            <label for="nom_per" class="col-sm-2 col-form-label">Nom</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="nom_per" name="nom_per" placeholder="Votre nom">
+                            </div>
+                        </div>
+                        <!--Prénom-->
+                        <div class="form-group row">
+                            <label for="prenom_per" class="col-sm-2 col-form-label">Prénom</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="prenom_per" name="prenom_per" placeholder="Votre prénom">
+                            </div>
+                        </div>
+                        <!--email-->
+                        <div class="form-group row">
+                            <label for="email_per" class="col-sm-2 col-form-label">E-mail</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email_per" name="email_per" placeholder="Votre adresse e-mail">
+                            </div>
+                        </div>
+                        <!--Mdp-->
+                        <div class="form-group row">
+                            <label for="mdp_per" class="col-sm-2 col-form-label">Mot de passe</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="mdp_per" name="mdp_per" placeholder="Votre mot de passe">
+                            </div>
+                        </div>
+                        <!--Mdp confirmation-->
+                        <div class="form-group row">
+                            <label for="mdpconfirm_per" class="col-sm-2 col-form-label">Password(confirmation)</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="mdpconfirm_per" name="mdpconfirm_per" placeholder="Saisissez votre mot de passe une seconde fois">
+                            </div>
+                        </div>
+                        <!--Inscription à news letter-->
+                        <div class="form-group row">
+                            <div class="col-sm-offset-2 checkbox">
+                                <label>
+                                    <input type="checkbox" value="1" id="news_letter" name="news_letter">La formation d'informaticien m'intéresse
+                                </label>
+                            </div>
+                        </div>
+                        <!--Boutton submit et reset-->
+                        <div class="form-group row">
+                            <div class="col-sm-ofset-8 col-sm-2">
+                                <input type="submit" class="form-control btn btn-primary" id="submit_conf" value="S'inscrire">
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="reset" class="form-control btn btn-warning" id="reset_conf" value="Annuler">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-footer">
+                </div>
+            </div>
+        </div>
+        <script src="inscription.js"></script>
+    </body>
+</html>

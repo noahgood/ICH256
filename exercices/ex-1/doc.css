@@ -62,3 +62,10 @@ p, ul{
 ul{
     margin: 10px 0px 10px 240px;
 }
+#content.light{
+    background-color: gray;
+}
+#content.light h1, #content.light h2{
+    border-color: #C33;
+    color: #C33;
+}
